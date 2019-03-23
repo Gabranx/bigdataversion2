@@ -1,4 +1,11 @@
 # bigdataversion2
-Abduzcan !!!
+
+ABDUZCAN !!!
 
 abduciendo !!
+
+Abduci2
+
+Analiza3
+
+Experimenta3
