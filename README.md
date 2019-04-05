@@ -1,12 +1,5 @@
 # bigdataversion2
 
-ABDUZCAN !!!
-
-abduciendo !!
-
-Abduci2
-
-Analiza3
-
-Experimenta3
-gb
+Dentro de este repositorio (usar markdown) 
+<li>
+<li>
