@@ -1,2 +1,2 @@
-# LibrerÌa Ant·rtica
+# Librer√≠a Ant√°rtica
 
