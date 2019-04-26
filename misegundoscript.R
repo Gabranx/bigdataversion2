@@ -22,3 +22,18 @@ algebra<-function(a,b,c){
 }
 round(3,4)
 trunc(3.2,0)
+area<- function(r,t){
+  #Se multiplica r (pi) con t que es el radio
+  (r*t)}
+corona<-function(h,k,q){
+  #Se multiplica pi por el radio mayor al cuadrado menos el radio menor al cuadrado
+  (h*(k^2-q^2))}
+casa<-function(x,v){
+  #Se calcula tiempo en llegar al destino
+  v<-v*(5/18)
+  t<-x/v
+  v<-x/t
+  }
+home<-function(p,o){
+  (6000/(o*(5/18)))/3600}
+  
