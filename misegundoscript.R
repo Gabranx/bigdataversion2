@@ -48,3 +48,58 @@ home<-function(p,o){
 #Calcula el area del circulo grande con radio
 #Estas se restan
 #Ejemplo : 4 y 2
+
+if(FALSE){
+  print("entró al if")
+}  
+if(2+2==4){
+  print("entró al if")
+}
+if(2+2==4 || 3+3==5){
+  print("entró al if")
+}
+#&& = y ; || = o
+if(2+2==4 && 3+3==5){
+  print("entró al if")
+}
+
+#USANDO ELSE
+
+if(TRUE){
+  print("entró al if")
+}else{
+  print("entró al else")
+}
+
+if(FALSE){
+  print("entró al if")
+}else{
+  print("entró al else")
+}
+
+radio1<- 2
+radio2<- 4
+if(radio1>radio2){
+  corona(radio1,radio2)
+}else{
+  corona(radio2,radio1)
+}
+
+m<-"hola"
+if(m>0){
+  print("positivo")
+}else if(m<0){
+print("negativo")
+}else{
+  print("nada")
+}
+
+
+if(grepl("[A-Za-z]",m)==TRUE){
+  print("texto")
+}else if(m<0){
+  print("negativo")
+}else{
+  print("positivo")
+}
+
