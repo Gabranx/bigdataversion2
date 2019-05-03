@@ -1,4 +1,5 @@
-#rm(list= ls())
+#
+rm(list= ls())
 source("misegundoscript.R")
 variableUno<-funcionUno(1,2)
 variableDos<-velocidad(10,2)

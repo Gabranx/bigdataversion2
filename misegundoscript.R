@@ -1,3 +1,4 @@
+#rm(list= ls())
 funcionUno<-function(x,y){
   ##Aquí va el desarrollo de la funcion de 
   print("entró a la suma")
@@ -85,21 +86,39 @@ if(radio1>radio2){
   corona(radio2,radio1)
 }
 
-m<-"hola"
-if(m>0){
-  print("positivo")
-}else if(m<0){
-print("negativo")
-}else{
-  print("nada")
-}
-
-
+m="h1"
+#Al ser if ya entrega deductivamente un booleano por tanto el comparativo a true es innecesario porque ya es verdadero
 if(grepl("[A-Za-z]",m)==TRUE){
   print("texto")
 }else if(m<0){
   print("negativo")
-}else{
+}else if(m>0){
   print("positivo")
+}else{
+  print("es cero")
 }
-
+lista1<-list()
+lista2<-list("aquilesbailo","armandocasas","1313","mmm")
+print(lista2)
+print(2)
+lista2<-c(lista2,"popeye")
+length(lista2)
+lista2<-c(lista2,"chichidangi")
+print(lista2)
+lista2[-5]#muestro la lista sin el elemento seleccionado"
+lista2<-lista2[-5]#Elimino el elemento de la lista
+lista2<-lista2[-3:-5]#elimino el elemento en dicha posición
+#el lenght muestra el tamaño de la lista sin el último elemento de ella.
+lista2[-length(lista2)]
+lista2[3]<-"chichidangi"
+lista2[1:3]<-lista2[3:1]
+lista3<-list(3,1)
+uzi<-lista3[2]
+lista3[2]<-lista3[1]
+lista3[1]<-uzi
+for (i in 1:100){
+    print(i)
+}
+lista5<-list(i)
+print (lista5)
+print[lista5]
