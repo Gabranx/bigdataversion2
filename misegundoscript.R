@@ -116,9 +116,39 @@ lista3<-list(3,1)
 uzi<-lista3[2]
 lista3[2]<-lista3[1]
 lista3[1]<-uzi
+
 for (i in 1:100){
     print(i)
 }
+lista4<-i
 lista5<-list(i)
 print (lista5)
 print[lista5]
+lista6<-list("bella","chao","bellachao","99","0","-90")
+for (i in 1:length(lista6)){
+  print (lista6[i])
+  }if(grepl("[A-Za-z]",lista6[i])){
+    print("texto")
+  }else if(lista6[i]<0){
+    print("negativo")
+  }else if(lista6[i]>0){
+    print("positivo")
+  }else{
+    print("es cero")
+  }
+check2valor<-function(elvalor){
+  if(grepl("[A-Za-z]",elvalor)){
+    print("Esto es Texto")
+  }else if(elvalor<0){
+    print("Negativo")
+  }else if (elvalor>0){
+    print ("Positivo")
+  }else{
+    print("Es cero")
+  }}
+vari<- 0
+do while(vari<1000){
+  print(paste("holamundo->",vari))
+  vari<-vari + 1
+}
+}

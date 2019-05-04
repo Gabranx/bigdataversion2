@@ -15,3 +15,6 @@ if(radio1>radio2){
 u<-corona(radio2,radio1)
 }
 
+for(w in 1: length(lista6)){
+  check2valor(lista6[w])
+}
